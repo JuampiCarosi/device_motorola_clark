@@ -29,6 +29,9 @@
 /persist/camera/ledcal/rear u:object_r:persist_camera_file:s0
 /persist/mdm/oma_dm_update u:object_r:persist_mdm_file:s0
 
+# Gatekeeper
+/(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper@1\.0-service\.software u:object_r:hal_gatekeeper_default_exec:s0
+
 /sys/class/leds/lcd-backlight(/.*)? u:object_r:sysfs_leds:s0
 /sys/devices/soc\.0/leds-qpnp-9/leds/charging(/.*)? u:object_r:sysfs_leds:s0
 
