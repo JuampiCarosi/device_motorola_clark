@@ -167,11 +167,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.clark
 
-# LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions \
-    libjni_LineageActions
-
 # Media
 PRODUCT_PACKAGES += \
     libOmxAacEnc \

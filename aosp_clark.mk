@@ -6,13 +6,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l.mk)
 
 $(call inherit-product, device/motorola/clark/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1440
+
+# GApps
+TARGET_GAPPS_ARCH := arm64
 DEVICE_PACKAGE_OVERLAYS += device/motorola/clark/overlay
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_clark
+PRODUCT_NAME := aosp_clark
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := clark
 PRODUCT_MODEL := XT1575

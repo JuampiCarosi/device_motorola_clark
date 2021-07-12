@@ -16,8 +16,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_clark.mk
+    $(LOCAL_DIR)/aosp_clark.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_clark-userdebug \
-    lineage_clark-eng
+    aosp_clark-userdebug \
+    aosp_clark-eng
