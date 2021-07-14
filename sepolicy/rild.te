@@ -5,5 +5,6 @@ allow rild persist_file:dir search;
 allow rild persist_mdm_file:file rw_file_perms;
 allow rild proc:file r_file_perms;
 allow rild rild_exec:file execute_no_trans;
-
+allow rild mot_hob_ram_device:chr_file { open read write };
+allow rild block_device:dir search;
 get_prop(rild, wifi_prop);
