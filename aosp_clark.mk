@@ -15,6 +15,7 @@ TARGET_BOOT_ANIMATION_RES := 1440
 # GApps
 TARGET_GAPPS_ARCH := arm64
 DEVICE_PACKAGE_OVERLAYS += device/motorola/clark/overlay
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_clark
