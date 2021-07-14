@@ -8,3 +8,4 @@ userdebug_or_eng(`
 # fsg access
 allow rfs_access fsg_file:dir search;
 allow rfs_access fsg_file:file r_file_perms;
+allow rfs_access fsg_file:lnk_file r_file_perms;
