@@ -1,5 +1,7 @@
 /(vendor|system/vendor)/bin/adspd u:object_r:adspd_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.cryptfshw@1\.0-service-qti\.qsee   u:object_r:hal_keymaster_qti_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.clark u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service-qti u:object_r:hal_power_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator@1\.1-service\.clark u:object_r:hal_vibrator_default_exec:s0
 /(vendor|system/vendor)/bin/init\.qcom\.power\.sh u:object_r:qti_init_shell_exec:s0
 /(vendor|system/vendor)/bin/motosh u:object_r:motosh_exec:s0
